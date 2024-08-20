@@ -35,6 +35,4 @@ class MyString:
       for sentence in sentence_list:
         if sentence[-1] == '.' or sentence[-1] == '?' or sentence[-1] == '!':
           sum += 1
-        else:
-          sum += 0
       return sum
